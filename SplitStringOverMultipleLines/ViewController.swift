@@ -15,8 +15,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         let text = """
-        this is some text
-        over multiple lines
+        When you write a string that spans multiple
+        lines make sure you start its content on a
+        line all of its own, and end it with three
+        quotes also on a line of their own.
+        Multi-line strings also let you write "quote marks"
+        freely inside your strings, which is great!
         """
         
         print(text)
